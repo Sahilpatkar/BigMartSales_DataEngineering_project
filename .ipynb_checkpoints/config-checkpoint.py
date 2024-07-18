@@ -1,0 +1,5 @@
+DataSetPath = "BigMartData.csv"
+header_value = "True"
+inferschema_value = "True"
+ProjectName = "BigMartData_Project"
+outputPath = "Metrics"
