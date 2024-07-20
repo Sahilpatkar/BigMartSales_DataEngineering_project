@@ -12,4 +12,4 @@ Mount local output dir 'Metrics' in the container to fetch the metrics created b
 
 This is creating a shared directory between local and docekr container. Any changes in folder will be reflected in both places.
 
-`docker run -v $(pwd)/Metrics:/app/Metrics my-spark-app`
+`docker run -v $(pwd)/Metrics:/app/Metrics <app-name>`
